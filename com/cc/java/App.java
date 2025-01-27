@@ -16,19 +16,24 @@ public class App {
 		// 	new Cat("someone_" + i); // Objekt, aber KEINE Referenz!
 		// }
 		
-		// String [] nameArr = {"Grizabella","Alonzo","RumTumTugger","Suzanne"};
-		// ArrayList<Cat> objList = new ArrayList<>();
+		String [] nameArr = {"Grizabella","Alonzo","RumTumTugger","Suzanne","Pet the Peter","Hansgar","Franzgar"};
+		ArrayList<Cat> objList = new ArrayList<>();
 
-		// for (int i = 0; i < nameArr.length; i++) 
-		// {
-		// 	objList.add(new Cat(nameArr[i]));
-		// 	output("Cats: " + objList);
-		// }
+		for (int i = 0; i < nameArr.length; i++) 
+		{
+			objList.add(new Cat(nameArr[i]));
+			output("Cats: " + objList);
+		}
 
-		// output("Cats: " + objList);
-		// output(objList.get(0).getAttributes());
-		// output(objList.get(1).getAttributes());
-		// output(objList.get(objList.size()-1).getAttributes());
+		output("Cats: " + objList);
+		output(objList.get(0).getAttributes());
+		output(objList.get(1).getAttributes());
+		output(objList.get(2).getAttributes());
+		output(objList.get(3).getAttributes());
+		output(objList.get(4).getAttributes());
+		output(objList.get(5).getAttributes());
+		output(objList.get(6).getAttributes());
+		output(objList.get(objList.size()-1).getAttributes());
 		
 	}
 	
